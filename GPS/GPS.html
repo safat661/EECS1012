@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <script type="text/javascript" src="gps.js"></script>
+    <link href="gps.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <h1>Geocaching</h1>
+    <p>
+        <button id="togglegps" onclick="togglegps()">Start GPS</button>
+        <button onclick="updateCache()">Next Location</button>
+        <div id="map">
+            <img src="YorkU_Map.png" id="map">
+            <div id="target"><img src="target.gif"></div>
+            <div id="me"><img src="me.gif"></div>
+        </div>
+        Lattitude <span id="latitude"> ???? </span> Longitude <span id="longitude"> ???? </span> Now <span id="now"> ???? </span>
+    </p>
+    <p>
+        <div id="debug"> debug </div>
+    </p>
+
+</body>
+
+</html>

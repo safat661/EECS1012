@@ -1,0 +1,17 @@
+h1 {
+  text-align: center;
+}
+
+table {
+  border: 1px solid black;
+  table-layout: fixed;
+  width: 100%;
+  height: 90%;
+}
+
+th, td {
+  border: 1px solid black;
+  overflow: hidden;
+  width: 16%;
+  height: 6%;
+}

@@ -1,0 +1,15 @@
+#map {
+    position: relative;
+}
+#target {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+#me {
+    left: 100px;
+    top: 0px;
+    position: absolute;
+    z-index: 1;
+}
